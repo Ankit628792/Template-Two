@@ -29,6 +29,30 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
 	 rel="stylesheet">
 	<!-- //Web-Fonts -->
+    <link rel="stylesheet" href="swiper1.css">
+      <style>
+    body {
+      background: #212F3D;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {margin-top: 20vh;
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 400px;
+      height: 400px;
+     color: #fff;
+    }
+    
+  </style>
 </head>
 <body>	
 <div class="main-top py-1">
@@ -49,6 +73,7 @@
                             <li class="mr-lg-2"><a href="#features" class="scroll">Features</a></li>
 							<li class="mr-lg-2"><a href="#news" class="scroll">News</a></li>
 							<li class="mr-lg-2"><a href="#newsletter" class="scroll">Newsletter</a></li>
+							<li class="mr-lg-2"><a href="#slider" class="scroll">Just Fun</a></li>
                             <li><a href="#contact" class="scroll">Contact Us</a></li>
                         </ul>
                     </nav>
@@ -264,6 +289,90 @@ APEDA’s Officers. This Citizen’s Charter shall be reviewed once in two years
     </div>
   </li><br>
 </ul>
+    </section>
+    <section id="fun">
+     <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide card-body" style="background-image:url(./images/0.jpg)">  <div class="card-body">
+    <h5 class="card-title">UI Design</h5>
+    <p class="card-text">It is a Swiper Slider created by Ankit.</p>
+    <a href="#" class="btn btn-primary">Go To</a>
+  </div>
+    </div>
+      <div class="swiper-slide" style="background-image:url(./images/2.jpg)"> <div class="card-body">
+    <h5 class="card-title">UI Design</h5>
+    <p class="card-text">It is a Swiper Slider created by Ankit.</p>
+    <a href="#" class="btn btn-primary">Go To</a>
+  </div></div>
+      <div class="swiper-slide" style="background-image:url(./images/3.jpg)"> <div class="card-body">
+    <h5 class="card-title">UI Design</h5>
+    <p class="card-text">It is a Swiper Slider created by Ankit.</p>
+    <a href="#" class="btn btn-primary">Go To</a>
+  </div></div>
+      <div class="swiper-slide" style="background-image:url(./images/4.jpg)"> <div class="card-body">
+    <h5 class="card-title">UI Design</h5>
+    <p class="card-text">It is a Swiper Slider created by Ankit.</p>
+    <a href="#" class="btn btn-primary">Go To</a>
+  </div></div>
+      <div class="swiper-slide" style="background-image:url(./images/5.jpg)"> <div class="card-body">
+    <h5 class="card-title">UI Design</h5>
+    <p class="card-text">It is a Swiper Slider created by Ankit.</p>
+    <a href="#" class="btn btn-primary">Go To</a>
+  </div></div>
+      <div class="swiper-slide" style="background-image:url(./images/6.jpg)"> <div class="card-body">
+    <h5 class="card-title">UI Design</h5>
+    <p class="card-text">It is a Swiper Slider created by Ankit.</p>
+    <a href="#" class="btn btn-primary">Go To</a>
+  </div></div>
+      <div class="swiper-slide" style="background-image:url(./images/7.jpg)"> <div class="card-body">
+    <h5 class="card-title">UI Design</h5>
+    <p class="card-text">It is a Swiper Slider created by Ankit.</p>
+    <a href="#" class="btn btn-primary">Go To</a>
+  </div></div>
+      <div class="swiper-slide" style="background-image:url(./images/8.jpg)"> <div class="card-body">
+    <h5 class="card-title">UI Design</h5>
+    <p class="card-text">It is a Swiper Slider created by Ankit.</p>
+    <a href="#" class="btn btn-primary">Go To</a>
+  </div></div>
+      <div class="swiper-slide" style="background-image:url(./images/9.jpg)"> <div class="card-body">
+    <h5 class="card-title">UI Design</h5>
+    <p class="card-text">It is a Swiper Slider created by Ankit.</p>
+    <a href="#" class="btn btn-primary">Go To</a>
+  </div></div>
+      <div class="swiper-slide" style="background-image:url(./images/10.jpg)"> <div class="card-body">
+    <h5 class="card-title">UI Design</h5>
+    <p class="card-text">It is a Swiper Slider created by Ankit.</p>
+    <a href="#" class="btn btn-primary">Go To</a>
+  </div></div>
+    
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="swiper1.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
     </section>
     
 	<!-- contact -->
